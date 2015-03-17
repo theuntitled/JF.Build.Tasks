@@ -1,5 +1,7 @@
 # JF.Build.Targets
 
+Custom MsBuild tasks and targets
+
 ## Available Tasks
 
 ### GetVersionNumber

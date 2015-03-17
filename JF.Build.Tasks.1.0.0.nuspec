@@ -6,6 +6,9 @@
         <title>JF.Build.Tasks</title>
         <authors>Josef Fazekas</authors>
         <owners>Josef Fazekas</owners>
+        <licenseUrl>https://github.com/theuntitled/JF.Build.Tasks/blob/master/LICENSE</licenseUrl>
+        <projectUrl>https://github.com/theuntitled/JF.Build.Tasks</projectUrl>
+        <iconUrl>https://raw.githubusercontent.com/theuntitled/JF.Build.Tasks/master/JF.Build.Tasks/theuntitled.ico</iconUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>Custom build targets</description>
         <copyright>Copyright © Josef Fazekas 2015</copyright>
