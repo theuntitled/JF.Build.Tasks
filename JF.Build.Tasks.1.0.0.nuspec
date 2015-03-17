@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>JF.Build.Tasks</id>
+        <version>1.0.0</version>
+        <title>JF.Build.Tasks</title>
+        <authors>Josef Fazekas</authors>
+        <owners>Josef Fazekas</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Custom build targets</description>
+        <copyright>Copyright © Josef Fazekas 2015</copyright>
+        <language>en-GB</language>
+        <tags>MsBuild, Targets</tags>
+        <frameworkAssemblies>
+            <frameworkAssembly assemblyName="System" targetFramework=".NETFramework4.5" />
+            <frameworkAssembly assemblyName="Microsoft.Build.Framework" targetFramework=".NETFramework4.5" />
+            <frameworkAssembly assemblyName="Microsoft.Build.Utilities.v4.0" targetFramework=".NETFramework4.5" />
+        </frameworkAssemblies>
+    </metadata>
+    <files>
+        <file src="JF.Build.Tasks\bin\Release\JF.Build.Tasks.dll" target="build\JF.Build.Tasks.dll" />
+        <file src="JF.Build.Tasks\JF.Build.Tasks.targets" target="build\JF.Build.Tasks.targets" />
+    </files>
+</package>
